@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.img-section {
+  height: 700px;
+  max-width: auto;
+  border: 1px solid black;
+  background-color: #ffe2e2;
+  background-image: url("../Assists/cloth.png");
+}
+
+.img-left-section {
+  margin-top: 240px;
+  margin-left: 180px;
+}
+
+.img-left-section p,
+h1,
+button {
+  line-height: 40px;
+}
+
+.img-left-section button {
+  line-height: 40px;
+  border-radius: 18px;
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.img-left-section button:hover {
+  line-height: 40px;
+  height: 50px;
+  width: 200px;
+  border-radius: 18px;
+  background-color: white;
+  transition: all 0.2s linear;
+  color: black;
+  border: 1px solid black;
+}
