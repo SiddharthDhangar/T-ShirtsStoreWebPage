@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* block - 1 */
+
 .img-section {
   height: 700px;
   max-width: auto;
@@ -42,4 +44,139 @@ button {
   transition: all 0.2s linear;
   color: black;
   border: 1px solid black;
+}
+/* block-2 */
+#Summer-Section {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: top;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+#Summer-Section > p {
+  color: #b1c29e;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+#Summer-Section > p:hover {
+  color: #b1c29e;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  transition: all 0.6s linear;
+  text-shadow: 2px 2px 5px black;
+}
+#Summer-Section > h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: oblique;
+}
+.block-img-section {
+  display: flex;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.block-img-section h5 {
+  color: gray;
+}
+
+.buy {
+  height: 60px;
+  width: 90px;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.color-box {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.black {
+  background-color: black;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.white {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.color-input {
+  display: none;
+}
+
+.color-input:checked + .color-box {
+  border: 3px solid #000;
+}
+
+.block-img-section button {
+  font-size: 10px;
+  height: 30px;
+  width: 30px;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.block-img-section button:hover {
+  border: 1px solid gray;
+}
+
+/* block - 3  */
+
+.block-3 {
+  display: flex;
+  justify-content: center;
+}
+.block-3-text p,
+h3 {
+  display: flex;
+  justify-content: center;
+}
+.block-3-text p {
+  color: gray;
+}
+.block-3-text h3 {
+  font-size: 30px;
+  flex-wrap: wrap;
+}
+
+.block-3-text button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  width: 90px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  margin-left: 220px;
 }
