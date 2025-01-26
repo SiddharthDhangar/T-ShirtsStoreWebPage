@@ -180,3 +180,110 @@ h3 {
   margin-top: 20px;
   margin-left: 220px;
 }
+
+/* Parallax Concept */
+
+.pimg1 {
+  background-image: url(../Assists/parralax_im.jpg);
+  min-height: 100%;
+  flex-wrap: wrap;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 160px;
+  margin-bottom: 120px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+  word-spacing: 8px;
+  line-height: 30px;
+  /* text-transform: uppercase; */
+}
+.ptext p {
+  font-size: 15px;
+}
+.ptext h4 {
+  font-size: 50px;
+}
+.ptext h6 {
+  font-size: 20px;
+}
+.ptext button {
+  width: 120px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/* Parallax Concept */
+
+/* Spring summer  */
+
+.block-4 {
+  display: flex;
+  gap: 12px;
+  margin-top: 40px;
+  justify-content: space-evenly;
+}
+.block-4 section {
+  background-color: #ffe2e2;
+  height: 540px;
+  width: 900px;
+  margin-left: 120px;
+  margin-top: 120px;
+}
+.block-4 .left-section {
+  height: 900px;
+  display: flex;
+  width: 700px;
+  background-repeat: no-repeat;
+  position: relative;
+  bottom: 10%;
+  left: 5%;
+  background-image: url(../Assists/SpringSummerimg.webp);
+}
+
+.right-section {
+  /* position: relative; */
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  /* text-align: start; */
+  align-items: start;
+  justify-content: center;
+}
+
+.right-section > span {
+  color: gray;
+  font-size: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-section h4 {
+  color: black;
+  font-size: 70px;
+}
+.right-section button {
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+}
+
+/* Spring Summer */
