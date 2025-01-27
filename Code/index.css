@@ -227,7 +227,7 @@ h3 {
 
 /* Parallax Concept */
 
-/* Spring summer  */
+/* Spring summer  start*/
 
 .block-4 {
   display: flex;
@@ -285,5 +285,114 @@ h3 {
   align-items: center;
   width: 190px;
 }
+/* Spring Summer end */
 
-/* Spring Summer */
+/* Summer_Collection On_Sale */
+#Summer-Section-onSale {
+  margin-top: 70px;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: top;
+  flex-direction: column;
+  align-items: center;
+}
+#Summer-Section p {
+  color: gray;
+}
+.block-img-section {
+  display: flex;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+.block-img-section h5 {
+  color: gray;
+}
+.buy {
+  height: 60px;
+  width: 90px;
+}
+
+.colors {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.color-box {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.black {
+  background-color: black;
+}
+
+.pink {
+  background-color: pink;
+}
+
+.white {
+  background-color: white;
+  border: 2px solid black; /* For visibility */
+}
+
+.color-input {
+  display: none;
+}
+
+.color-input:checked + .color-box {
+  border: 3px solid #000;
+}
+
+.block-img-section button {
+  font-size: 10px;
+  height: 30px;
+  width: 30px;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+.block-img-section button:hover {
+  border: 1px solid gray;
+}
+/* Summer_Collection On_sale End */
+
+/* Reviews Start */
+
+.Reviews {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+}
+.Reviews b {
+  text-decoration: underline;
+}
+.Reviews p {
+  color: gray;
+  line-height: 2px;
+}
+.Reviews img {
+  height: 60px;
+}
+.stars {
+  display: flex;
+  justify-content: center;
+  color: #ece852;
+}
+/* Reviews End */
